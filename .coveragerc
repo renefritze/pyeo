@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/pyeo
+   */site-packages/pyeo
+
+[run]
+branch = True
+source =
+    pyeo
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
